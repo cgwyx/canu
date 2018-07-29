@@ -18,7 +18,7 @@ RUN conda update --all -y &&\
     conda config --add channels r &&\
     conda config --add channels bioconda &&\
     conda config --set show_channel_urls yes &&\
-    conda install -y canu=1.7.1 gnuplot=5.0.4
+    conda install -y canu=1.7.1 gnuplot=5.0.5
 
 CMD ["/bin/bash"]
 

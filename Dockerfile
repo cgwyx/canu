@@ -18,8 +18,7 @@ RUN conda update --all -y &&\
     conda config --add channels r &&\
     conda config --add channels bioconda &&\
     conda config --set show_channel_urls yes &&\
-    conda install -y -c bioconda canu=1.7.1
-#   conda install -y gnuplot=5.0.5
+    conda install -y -c imperial-college-research-computing canu-pbs 
 
 CMD ["/bin/bash"]
 
